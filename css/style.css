@@ -3,34 +3,8 @@
 * {
   box-sizing: border-box;
 }
-/*aba de avaliaçoes*/
 
-.avaliaçoes {
-  background-color: rgb(230, 223, 223);
-  padding: 20px;
-  border-radius: 10px;
-  width: 300px;
-  min-height: 200px;
-  text-align: center;
-  box-shadow: 2px 4px 10px rgba(0, 0, 0 ,0.2);
-  transition: 0.3s;
-  filter: grayscale(0%);
-}
 
-.lista-avaliaçoes {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-.avaliaçoes:hover{
-  transform: scale(1.05);
-  cursor: pointer;
-  filter: brightness(0.95) grayscale(100%);
-  opacity: 0.5;
-}
 
 /* produtos similares */
 
