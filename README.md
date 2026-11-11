@@ -19,13 +19,16 @@ Repositório destinado às atividades e projetos desenvolvidos durante a discipl
 
 ##  Desenvolvedores
 
-**Erick Natan**
-**Dyone Paulo**
-**Pablo Donato**
-**Wender Diram**
-**Renan Monteiro**
-GitHub: [@exn88](https://github.com/exn88)
+- **Erick Natan** — [GitHub](https://github.com/exn88)
+- **Dyone Paulo** — [GitHub](https://github.com/dyonepaulo)
+- **Pablo Donato** — [GitHub](https://github.com/escobar80)
+- **Wender Diram** — [GitHub](https://github.com/wender-dss)
+- **Renan Monteiro** — [GitHub](https://github.com/curlyrenan)
 
 ---
 
-Desenvolvido para fins acadêmicos e de aprendizado.
+Desenvolvido para fins acadêmicos na disciplina de Interação Humano-Máquina (IHM).
+
+---
+
+
