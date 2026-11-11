@@ -1,0 +1,58 @@
+/* feito por erickinho */
+
+.avaliaçoes {
+  background-color: rgb(230, 223, 223);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  min-height: 200px;
+  text-align: center;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  filter: grayscale(0%);
+}
+
+.lista-avaliaçoes {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.avaliaçoes:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  filter: brightness(0.95) grayscale(100%);
+  opacity: 0.5;
+}
+.menu-botao {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  display: flex;
+}
+.botao {
+  text-decoration: none;
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease;
+}
+.botao:hover {
+  transform: scale(1.05);
+  opacity: 0.5;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  color:;
+}
+.botao:active {
+  letter-spacing: 3px;
+  transform: translateY(10px);
+  transition: 100ms;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  color:;
+}
