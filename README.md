@@ -1,4 +1,4 @@
-# 💻 Trabalho de IHM
+#  Trabalho de IHM
 
 Repositório destinado às atividades e projetos desenvolvidos durante a disciplina de **Interação Humano-Máquina (IHM)**, com foco no aprendizado e na prática de desenvolvimento web.
 
