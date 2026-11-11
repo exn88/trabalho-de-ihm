@@ -22,8 +22,8 @@ Repositório destinado às atividades e projetos desenvolvidos durante a discipl
 - **Erick Natan** — [GitHub](https://github.com/exn88)
 - **Dyone Paulo** — [GitHub](https://github.com/dyonepaulo)
 - **Pablo Donato** — [GitHub](https://github.com/escobar80)
-- **Wender Diram** — [GitHub](https://github.com/wender-dss)
 - **Renan Monteiro** — [GitHub](https://github.com/curlyrenan)
+- **Wender Diram** — [GitHub](https://github.com/wender-dss)
 
 ---
 
