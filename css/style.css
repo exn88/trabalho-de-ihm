@@ -8,21 +8,6 @@
 
 /* produtos similares */
 
-.conteiner- {
-  background-color: black;
-  margin: auto;
-  padding: 0;
-}
 
-.text-produtos-similares h1 {
-  font-family: "Black Ops One", system-ui;
-  font-weight: 400;
-}
-.destaque-subtitulo-produtos-similares{
-  background-color: #303236;
-}
-.text-white {
-  color: white;
-}
 
-/* ////////////////// */
+/* ////////////////
