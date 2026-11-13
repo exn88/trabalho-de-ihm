@@ -1,4 +1,8 @@
 /* feito por erickinho */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+* {
+  box-sizing: border-box;
+}
 
 .avaliaçoes {
   background-color: rgb(230, 223, 223);
@@ -53,5 +57,18 @@
   transform: translateY(10px);
   transition: 100ms;
   box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+}
+
+body {
+  background: linear-gradient(90deg, black, rgb(26, 26, 26), black);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  color: white;
+  text-align: center;
   
 }
