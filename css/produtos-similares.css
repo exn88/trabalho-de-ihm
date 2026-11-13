@@ -37,3 +37,35 @@ body {
   display: inline-flex;
   justify-content: center;
 }
+
+.carrossel {
+  display: flex;
+  overflow: hidden;
+  /*esconde a parte que n couber na tela */
+  gap: 10px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 12px;
+}
+
+
+.carrossel img {
+  height: auto;
+  flex-shrink: 0;
+  /*impede que os produtos diminuam de tamanho para caber no espaço disponivel*/
+  width: 290px;
+}
+
+.botao {
+  background-color: black;
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 12px;
+  font-size: 10px;
+  padding: 5px;
+}
+
+.produto {
+  background: rgb(18, 18, 18);
+  box-shadow: rgb(18, 18, 18) 0px 0px 7px ;
+}
