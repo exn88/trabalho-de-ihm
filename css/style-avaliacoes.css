@@ -1,5 +1,5 @@
 /* feito por erickinho */
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -76,5 +76,31 @@ h1 {
   font-weight: 400;
   color: white;
   text-align: center;
-  
+}
+
+.imagens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.imagens img {
+  width: 500px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+h2 {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+.paragrafo{
+    font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  color: white;
+  padding: 20px;
 }
