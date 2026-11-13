@@ -39,13 +39,19 @@
   display: flex;
 }
 .botao {
+  background-color: black;
   text-decoration: none;
   padding: 17px 40px;
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.5s ease;
+  border: 1px solid gold;
+  color: gold;
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
 }
+
 .botao:hover {
   transform: scale(1.05);
   opacity: 0.5;
