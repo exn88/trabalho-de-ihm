@@ -9,6 +9,7 @@
     --line: #303030;
     --accent: #c7c7c7;
 }
+ 
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -92,6 +93,7 @@ h1 {
     font-size: clamp(58px, 7.5vw, 108px);
     line-height: .88;
 }
+.intro-copy h1 { font-size: clamp(40px, 5.2vw, 72px); }
 h1 span { color: transparent; -webkit-text-stroke: 1px #f5f5f2; }
 .intro-text {
     max-width: 550px;
@@ -243,6 +245,7 @@ h1 span { color: transparent; -webkit-text-stroke: 1px #f5f5f2; }
     .content { padding: 43px 18px 20px 42px; }
     .eyebrow { font-size: 8px; letter-spacing: 2px; }
     h1 { font-size: clamp(53px, 16vw, 78px); }
+    .intro-copy h1 { font-size: clamp(46px, 12vw, 62px); }
     .intro-text { font-size: 10px; }
     .timeline-items { grid-template-columns: repeat(2, 1fr); }
     .timeline-items article { min-height: 55px; }
