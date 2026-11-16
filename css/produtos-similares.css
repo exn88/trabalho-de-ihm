@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, black, rgb(26, 26, 26), black);
+  margin: auto;
+  padding: 0;
+}
+
+.titulo h1 {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+}
+
+.titulo h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  color: gray;
+}
+
+.titulo {
+  padding: 30px;
+}
+
+.text-white {
+  color: white;
+}
+
+.destaque-subtitulo {
+  background-color: rgb(57, 57, 57);
+  color: orange;
+  padding: 4px 4px 1px 4px;
+  border-radius: 4px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.carrossel {
+  display: flex;
+  overflow: hidden;
+  /*esconde a parte que n couber na tela */
+  gap: 10px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 12px;
+}
+
+
+.carrossel img {
+  height: auto;
+  flex-shrink: 0;
+  /*impede que os produtos diminuam de tamanho para caber no espaço disponivel*/
+  width: 290px;
+}
+
+.botao {
+  background-color: black;
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 12px;
+  font-size: 10px;
+  padding: 5px;
+}
+
+.produto {
+  background: rgb(18, 18, 18);
+  box-shadow: rgb(18, 18, 18) 0px 0px 7px ;
+}
