@@ -14,8 +14,8 @@ Repositório destinado às atividades e projetos desenvolvidos durante a discipl
 ##  Informações Acadêmicas
 
 - **Instituição:** IF Baiano
-- **Curso:** Análise e Desenvolvimento de Sistemas (ADS)
-- **Disciplina:** Interação Humano-Máquina (IHM)
+- **Curso:** Análise e Desenvolvimento de Sistemas(ADS)
+- **Disciplina:** Interface Homem Máquina em Projetos de Web Sites(IHM)
 
 ##  Desenvolvedores
 
