@@ -99,3 +99,40 @@ h2 {
   text-align: center;
 }
 
+#form-ava {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+#form-ava input,
+#form-ava select,
+#form-ava textarea {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border: 1px solid gold;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+}
+
+#form-ava button {
+    background-color: black;
+    color: gold;
+    border: 1px solid gold;
+    padding: 12px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#form-ava button:hover {
+    background-color: gold;
+    color: black;
+    transform: scale(1.05);
+}
+
+#form-ava label {
+    font-family: "Black Ops One", system-ui;
+  color: white;
+}
