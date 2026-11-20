@@ -314,6 +314,8 @@ h1 span {
 }
 .quote-card {
     position: relative;
+    left: 670px;
+    top: -135px;
     margin-top: 14px;
     padding: 23px 25px 20px;
     text-align: center;
