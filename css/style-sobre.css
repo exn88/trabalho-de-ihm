@@ -774,18 +774,19 @@ h1 {
 }
 
 .value-icon {
-    width: 25px;
-    height: 25px;
-    flex-basis: 25px;
-    font-size: 12px;
+    width: 35px;
+    height: 35px;
+    flex-basis: 35px;
+    font-size: 14px;
 }
 
 .value h2 {
-    font-size: 8px;
+    font-size: 14px;
 }
 
 .value p {
-    font-size: 7px;
+    font-size: 9px;
+    line-height: 1.5;
 }
 
 .intro-visual {
