@@ -19,38 +19,41 @@
       </nav>
     </header>
 
-    <div>
+    <div class="help">
       <div id="middle-text">
-        <p id="24/7">Atendimento 24/7</p>
+        <p id="a24-7">• Atendimento 24/7</p>
         <h1>Central de suporte</h1>
         <p>
-          estamos aqui para ajudar! Se você tiver dUvidas sobre nossos produtos
+          estamos aqui para ajudar! Se você tiver dúvidas sobre nossos produtos
           ou atendimento, entre em contato conosco através dos canais abaixo.
         </p>
       </div>
 
-      <div id="canais-atendimento">
-        <h2>Canais de atendimento</h2>
-        <p>Nossas equipes de atendimento estão sempre prontas para te atender em qualquer uma de nossas linhas de suporte.</p>
-        <a href="tel:+551140028922" class="contact-box">Telefone <br> 11 40028922</a>
-        <a href="mailto:suporte@nike.com" class="contact-box">E-mail <br> suporte@nike.com</a>
-      </div>
+      <div class="contact-container">
+        <div id="canais-atendimento">
+          <h2>Canais de atendimento</h2>
+          <p>Nossas equipes de atendimento estão sempre prontas para te atender em qualquer uma de nossas linhas de suporte.</p>
+          <a href="tel:+551140028922" class="contact-box">Telefone <br> 11 4002-8922</a><br>
+          <a href="mailto:suporte@nike.com" class="contact-box">E-mail <br> suporte@nike.com</a>
+          <p class="contact-box">Endereço<br>Av.Paulista, 1000 - São Paulo, SP</p>
+        </div>
+        
+        <div id="fale-conosco">
+          <h2>Fale conosco</h2> <!--botar tipo pisca pisca with a faint glow mayybe-->
+          <p>Preencha formulário abaixo e retornaremos em até 2 dias úteis</p>
+          <form action="mailto:suporte@nike.com" method="POST" enctype="text/plain">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui" required>
 
-      <div id="fale-conosco">
-        <h2>Fale conosco</h2> <!--botar tipo pisca pisca with a faint glow mayybe-->
-        <p>Preencha formulário abaixo e retornaremos em até 2 dias úteis</p>
-        <form>
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui" required>
+              <label for="emil">Email</label>
+              <input type="email" id="email" name="email" placeholder="Digite seu email aqui" required>
 
-            <label for="emil">Email</label>
-            <input type="email" id="email" name="email" placeholder="Digite seu email aqui" required>
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem aqui" required></textarea>
 
-            <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem aqui" required></textarea>
-
-            <input type="submit" value="enviar">
-        </form>
+              <input type="submit" value="enviar">
+          </form>
+        </div>
       </div>
       
     </div>
