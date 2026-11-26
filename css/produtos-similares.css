@@ -17,12 +17,13 @@ body {
 
 .titulo h2 {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 12px;
+  font-size: 22px;
   color: gray;
 }
 
 .titulo {
-  padding: 30px;
+  padding: 20px;
+  font-size: 30px;
 }
 
 .text-white {
@@ -48,6 +49,11 @@ body {
   padding: 12px;
 }
 
+.grupo {
+  display: flex;
+  gap: 10px;
+}
+
 
 .carrossel img {
   height: auto;
@@ -57,15 +63,30 @@ body {
 }
 
 .botao {
+  margin: auto;
   background-color: black;
   color: orange;
   border: 1px solid orange;
   border-radius: 12px;
-  font-size: 10px;
-  padding: 5px;
+  font-size: 15px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  margin-right: 0;
 }
 
 .produto {
   background: rgb(18, 18, 18);
-  box-shadow: rgb(18, 18, 18) 0px 0px 7px ;
+  box-shadow: rgb(18, 18, 18) 0px 0px 7px;
+  color: aliceblue;
+}
+
+.rodape-produto{
+  padding: 5px;
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.preco{
+  color: orange;
 }
