@@ -81,12 +81,38 @@ body {
   color: aliceblue;
 }
 
-.rodape-produto{
+.rodape-produto {
   padding: 5px;
   display: inline-flex;
   justify-content: space-around;
   width: 100%;
 }
-.preco{
+
+.preco {
   color: orange;
+}
+
+.botao-voltar {
+  background-color: orange;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.conteiner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 100vh;
+}
+
+.imagem {
+background-color: aliceblue;
+min-height: 100vh;
+}
+.imagem img {
+  
+  object-fit: cover;
+  width: 600px;
+  height: auto;
+  background: rgb(18, 18, 18);
+  box-shadow: rgb(18, 18, 18) 0px 0px 7px;
 }
